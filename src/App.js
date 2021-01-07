@@ -17,7 +17,7 @@ function App() {
     lastName: 'Perez',
   };
 
-  const numbers = [1, 2, 3, 4, 5, 6];
+  const numbers = [1, 2, 3, 4, 5];
 
   // 防止注入攻击
   // 所有内容在渲染之前都被转义为字符串
