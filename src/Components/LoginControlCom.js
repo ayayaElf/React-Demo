@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+// 条件渲染示例
 
 function UserGreeting(props) {
     return <h1>Welcome back!</h1>
@@ -35,7 +36,6 @@ function WarningBanner(props) {
     )
 }
 
-// 条件渲染示例
 class Test extends Component {
     constructor(props) {
         super(props);

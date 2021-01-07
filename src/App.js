@@ -4,7 +4,9 @@ import FunCom from './Components/FunCom';
 import ClassCom from './Components/ClassCom';
 // import EventCom from './Components/EventCom';
 import LoginControl from './Components/LoginControlCom';
-import NumberList from './Components/NumberListCom'
+import NumberList from './Components/NumberListCom';
+import {NameForm, EssayForm, FlavorForm, Reservation} from './Components/FormCom';
+import Calculator from './Components/CalculatorCom'
 
 function App() {
   function formatName(user) {
@@ -26,6 +28,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hello {formatName(user)}</h1>
+        <Calculator />
+        <Reservation />
+        <FlavorForm />
+        <EssayForm />
+        <NameForm />
         <NumberList numbers={numbers}/>
         <LoginControl/>
         {/* <EventCom/> */}
